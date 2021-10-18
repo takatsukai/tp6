@@ -1,0 +1,109 @@
+body	{width: 1100px;
+        background-color: #FEDCE4;
+        font-family: 'Roboto', serif; 
+        margin: auto;
+        text-align: justify;
+		color: #883A4E;
+        }
+
+
+#titleBanner h1 {
+      color: black;
+        font-size: 1.3em;
+  		text-align: center;
+
+}
+
+#titleBanner h1.tp6 {
+      color: white;
+}
+
+       
+header	{padding: 5px;
+      font-size: 1.3em;
+      font-family: 'Playfair Display', serif; 
+       background-color: #fdfdfd86;
+		border-bottom: 1px dashed rgb(156, 42, 13);
+        border-left: 1px dashed rgb(172, 42, 23);
+        border-right: 1px dashed rgb(172, 42, 23);
+		text-align: center;
+        box-shadow: 5px 5px 5px rgba(80, 80, 80, 0.144);
+
+        }
+       
+       
+
+
+#recipeColumns {
+  padding:2;
+  display: flex;
+  justify-content: space-between;
+  padding bottom:6vh;
+  box-shadow: 0px 3px 3px rbga(0,0,0,0.7);
+}
+
+#recipeColumns div #ingredients {flex-basis:28%;}
+#recipeColumns div #equipment {flex-basis:20%;}
+#recipeColumns div #directions {flex-basis:50%;}
+
+#recipeColumns ul, ol {
+  padding-left: 10em;
+}
+
+ul, ol {
+  display: none;
+}
+
+ol.showMe,
+ul.showMe{
+ display: block;
+}
+
+
+#recipeColumns h2{
+    text-align: center;
+}
+
+
+
+nav {font-family: 'Roboto', sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    }
+
+
+.medfig	{width: 1200px
+        font-size: 0.8em;
+     }
+                    
+.midimg		{  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 5px 5px; 
+    background-color: #dea5a4;
+    border: 1px rgb(59, 24, 3) dashed;
+    color: #491804f5;
+            } 
+            
+
+.caption	{width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+            }
+            
+
+figcaption	{font-size: 0.60em;
+            font-family: 'Georgia', sans-serif;
+            color: #ffffff;
+            }
+            
+
+
+mark {
+  background-color: #EA3575;
+  color: white;
+}
+            
+
